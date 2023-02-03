@@ -33,6 +33,41 @@
       bindings = <&kp>, <&kp>;
     };
   };
+  macros {
+    m_user: m_user {
+      label = "username";
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      wait-ms = <0>;
+      bindings
+      = <&kp E &kp M &kp A &kp N &kp U &kp E &kp L &kp E>
+      , <&kp F &kp I &kp R &kp M &kp A &kp N &kp I>
+      ;
+    };
+    m_mail: m_mail {
+      label = "email";
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      wait-ms = <0>;
+      bindings
+      = <&kp E &kp M &kp A &kp N &kp U &kp E &kp L &kp E>
+      , <&kp F &kp I &kp R &kp M &kp A &kp N &kp I>
+      , <&kp AT &kp K &kp P &kp M &kp G &kp DOT &kp C &kp O &kp M>
+      ;
+    };
+    m_sign: m_sign {
+      label = "signature";
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      wait-ms = <0>;
+      bindings
+      = <&kp LS(T) &kp H &kp A &kp N &kp K &kp S &kp ENTER>
+      , <&kp LS(C) &kp I &kp A &kp O &kp ENTER>
+      , <&kp LS(E) &kp M &kp A &kp N &kp U &kp E &kp L &kp E>
+      ;
+    };
+
+  };
 };
 
 / {
@@ -96,6 +131,20 @@
                         >;
                 };
 
+
+                brackets_layer {
+                        label = "BRACKETS";
+// -----------------------------------------------------------------------------------------
+// | |     |     |     |     |     |            |     |     |     |     |     | |
+// | |     |  {  |  [  |  (  |     |            |  )  |  ]  |  }  |     |     | |
+// | |     |user |mail |sign |     |            |     |     |     |     |     | |
+                        bindings = <
+   &trans &trans &trans    &trans     &trans    &trans      &trans  &trans   &trans    &trans      &trans   &trans
+   &trans &trans &kp LBRC  &kp LBKT   &kp LPAR  &trans      &trans  &kp RPAR   &kp RBKT  &kp RBRC  &trans   &trans
+   &trans &trans &m_user   &m_mail    &m_sign   &trans      &trans  &trans     &trans    &trans    &trans   &trans
+                           &trans     &trans    &trans      &trans  &trans     &trans
+                        >;
+                };
 
 
                 
