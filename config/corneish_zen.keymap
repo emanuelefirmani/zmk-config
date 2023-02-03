@@ -82,6 +82,19 @@
                         >;
                 };
 
+                cursor_layer {
+                        label = "CURSOR";
+// -----------------------------------------------------------------------------------------
+// | |     |     |     |     |Vol+ |            |PgUp |Home  | Up  | End |     | |
+// | | GUI | Alt |Shift|Ctrl |Vol- |            |PgDw |Left  |Down |Right|     | |
+// | |     |     |     |     |     |            |     |      |     |     |     | |
+                        bindings = <
+   &trans &trans    &trans     &trans      &trans     &kp C_VOL_UP    &kp PG_UP   &kp HOME   &kp UP    &kp END    &trans   &trans
+   &trans &kp LGUI  &kp LALT   &kp LSHFT   &kp LCTRL  &kp C_VOL_DN    &kp PG_DN   &kp LEFT   &kp DOWN  &kp RIGHT  &trans   &trans
+   &trans &trans    &trans     &trans      &trans     &trans          &trans      &trans     &trans    &trans     &trans  &trans
+                               &trans      &trans     &trans          &trans      &trans     &trans
+                        >;
+                };
 
 
 
