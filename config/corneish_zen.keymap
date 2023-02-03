@@ -21,6 +21,18 @@
     zmk,matrix_transform = &default_transform;
     //zmk,matrix_transform = &five_column_transform;
   };
+  behaviors {
+    gqt: global-quick-tap {
+      compatible = "zmk,behavior-hold-tap";
+      label = "GLOBAL_QUICK_TAP";
+      #binding-cells = <2>;
+      flavor = "hold-preferred";
+      tapping-term-ms = <200>;
+      quick-tap-ms = <120>;
+      global-quick-tap;
+      bindings = <&kp>, <&kp>;
+    };
+  };
 };
 
 / {
