@@ -53,6 +53,25 @@
                                 &kp ESC     &lt NUM ENTER       &lt FUN TAB     &lt BRAC BSPC   &lt CURS SPACE  &kp DEL
                         >;
                 };
+
+                numbers_layer {
+                        label = "NUMBERS";
+// -----------------------------------------------------------------------------------------
+// | |  !  |  @  |  $  |  ?  |  &  |            |  -  |  7   |  8  |  9  |  %  | |
+// | |  =  |  /  |  \  |  *  |  _  |            |  +  |  4   |  5  |  6  |  0  | |
+// | |  |  |  ^  |  ~  |  #  |  "  |            |     |  1   |  2  |  3  |     | |
+                        bindings = <
+   &trans &kp EXCL        &kp AT         &kp DOLLAR     &kp QMARK       &kp AMPS        &kp MINUS  &kp N7        &kp N8        &kp N9      &kp PRCNT    &trans
+   &trans &mt LGUI EQUAL  &mt LALT FSLH  &mt LSHFT BSLH &mt LCTRL STAR  &kp UNDER       &kp PLUS   &mt RCTRL N4  &mt RSHFT N5  &mt RALT N6 &mt RGUI N0  &trans
+   &trans &kp PIPE        &kp CARET      &kp TILDE      &kp HASH        &kp DQT         &trans     &kp N1        &kp N2        &kp N3      &trans       &trans
+                                         &trans         &trans          &trans          &trans     &trans  &trans
+                        >;
+                };
+
+
+
+
+                
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
