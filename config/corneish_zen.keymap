@@ -56,140 +56,140 @@
       , <&kp LS(E) &kp M &kp A &kp N &kp U &kp E &kp L &kp E>
       ;
     };
-    ZMK_MACRO(a_grave,
+    ZMK_MACRO(la_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N4>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(o_grave,
+    ZMK_MACRO(lo_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N2>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(e_grave,
+    ZMK_MACRO(le_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N2>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(u_grave,
+    ZMK_MACRO(lu_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N9>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(i_grave,
+    ZMK_MACRO(li_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N6>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(a_acute,
+    ZMK_MACRO(la_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(o_acute,
+    ZMK_MACRO(lo_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N3>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(e_acute,
+    ZMK_MACRO(le_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N3>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(u_acute,
+    ZMK_MACRO(lu_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N5 &kp KP_N0>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(i_acute,
+    ZMK_MACRO(li_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N7>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(A_grave,
+    ZMK_MACRO(uA_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N3>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(O_grave,
+    ZMK_MACRO(uO_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N1>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(E_grave,
+    ZMK_MACRO(uE_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N1>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(U_grave,
+    ZMK_MACRO(uU_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N8>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(I_grave,
+    ZMK_MACRO(uI_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N5>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(A_acute,
+    ZMK_MACRO(uA_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N2>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(O_acute,
+    ZMK_MACRO(uO_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N0>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(E_acute,
+    ZMK_MACRO(uE_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N0>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(U_acute,
+    ZMK_MACRO(uU_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N7>
         , <&macro_release &kp LALT>
         ;
     )
-    ZMK_MACRO(I_acute,
+    ZMK_MACRO(uI_acute,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N4>
@@ -285,10 +285,10 @@
                 lower_layer {
                         label = "Accents";
                         bindings = <
-   &trans &a_acute &o_acute &e_acute &u_acute &i_acute      &I_acute &U_acute &E_acute &O_acute &A_acute &trans
-   &trans &a_grave &o_grave &e_grave &u_grave &i_grave      &I_grave &U_grave &E_grave &O_grave &A_grave &trans
-   &trans &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans   &trans   &trans   &trans
-                            &trans   &trans   &trans        &trans   &trans   &trans
+   &trans &la_acute &lo_acute &le_acute &lu_acute &li_acute      &uI_acute &uU_acute &uE_acute &uO_acute &uA_acute &trans
+   &trans &la_grave &lo_grave &le_grave &lu_grave &li_grave      &uI_grave &uU_grave &uE_grave &uO_grave &uA_grave &trans
+   &trans &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans    &trans    &trans   &trans
+                              &trans    &trans    &trans         &trans    &trans    &trans
                         >;
                 };
         };
