@@ -126,6 +126,76 @@
         , <&macro_release &kp LALT>
         ;
     )
+    ZMK_MACRO(A_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(O_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N1>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(E_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N1>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(U_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N8>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(I_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N5>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(A_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(O_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N0>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(E_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N0>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(U_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N7>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(I_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N0 &kp KP_N4>
+        , <&macro_release &kp LALT>
+        ;
+    )
   };
 };
 
@@ -215,10 +285,10 @@
                 lower_layer {
                         label = "Accents";
                         bindings = <
-   &trans &a_acute &o_acute &e_acute &u_acute &i_acute      &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &trans &a_grave &o_grave &e_grave &u_grave &i_grave      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &trans &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans &trans    &trans &trans
-                            &trans   &trans   &trans        &kp RET  &trans   &kp RALT
+   &trans &a_acute &o_acute &e_acute &u_acute &i_acute      &I_acute &U_acute &E_acute &O_acute &A_acute &trans
+   &trans &a_grave &o_grave &e_grave &u_grave &i_grave      &I_grave &U_grave &E_grave &O_grave &A_grave &trans
+   &trans &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans   &trans   &trans   &trans
+                            &trans   &trans   &trans        &trans   &trans   &trans
                         >;
                 };
         };
