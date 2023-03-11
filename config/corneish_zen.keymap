@@ -63,10 +63,66 @@
         , <&macro_release &kp LALT>
         ;
     )
+    ZMK_MACRO(o_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    )
     ZMK_MACRO(e_grave,
       bindings
         = <&macro_press   &kp LALT>
         , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N2>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(u_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N9>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(i_grave,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N6>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(a_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N5>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(o_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(e_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N3>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(u_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N5 &kp KP_N0>
+        , <&macro_release &kp LALT>
+        ;
+    )
+    ZMK_MACRO(i_acute,
+      bindings
+        = <&macro_press   &kp LALT>
+        , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N7>
         , <&macro_release &kp LALT>
         ;
     )
@@ -159,10 +215,10 @@
                 lower_layer {
                         label = "Accents";
                         bindings = <
-   &trans &trans   &trans   &trans &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &trans &a_grave &e_grave &trans &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &trans &trans   &trans   &trans &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &trans &a_acute &o_acute &e_acute &u_acute &i_acute      &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
+   &trans &a_grave &o_grave &e_grave &u_grave &i_grave      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &trans &trans   &trans   &trans   &trans   &trans        &trans   &trans   &trans &trans    &trans &trans
+                            &trans   &trans   &trans        &kp RET  &trans   &kp RALT
                         >;
                 };
         };
