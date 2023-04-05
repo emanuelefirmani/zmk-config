@@ -199,13 +199,6 @@
   };
 };
 
-&mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <150>;
-    quick-tap-ms = <120>;
-    global-quick-tap;
-};
-
 / {
         keymap {
                 compatible = "zmk,keymap";
